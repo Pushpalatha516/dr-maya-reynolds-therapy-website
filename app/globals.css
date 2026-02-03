@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PPT DESIGN TOKENS */
+:root {
+  --bg-color: #faf7f5;          /* PPT background */
+  --primary-color: #7b6fae;     /* PPT lilac */
+  --heading-color: #2f2a28;     /* Dark heading */
+  --text-color: #5f5a57;        /* Body text */
+}
+
+/* FONT FAMILIES (from PPT style) */
+.font-heading {
+  font-family: "Playfair Display", serif;
+}
+
+.font-body {
+  font-family: "Inter", sans-serif;
+}
+div {
+  display: block;
+}
+.approach-btn {
+  display: inline-block;
+  padding: 14px 36px;
+  border: 2px solid #000;
+  color: #000;
+  background-color: transparent;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.approach-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
