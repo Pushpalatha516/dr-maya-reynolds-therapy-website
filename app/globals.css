@@ -64,5 +64,15 @@ html {
     margin: 0 auto;
   }
 }
+@media (max-width: 768px) {
+  .hero-image {
+    height: auto !important;
+  }
+
+  .hero-image img {
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
 
 
