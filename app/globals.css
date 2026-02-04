@@ -96,25 +96,42 @@ div {
   /* ===== SPECIALTIES SECTION ===== */
   .specialties-grid {
     grid-template-columns: 1fr !important;
-    justify-items: center !important; /* centers boxes */
+    gap: 24px !important;
+    justify-items: center !important;
   }
 
-  .specialty-card {
-    width: 100%;
-    max-width: 360px; /* keeps box centered & clean */
-    margin: 0 auto;
+  /* section padding reduced */
+  .specialties-section {
+    padding: 60px 16px !important;
   }
 
+  /* heading smaller */
   .specialties-heading {
+    font-size: 28px !important;
+    margin-bottom: 32px !important;
     text-align: center !important;
-    font-size: 32px !important;
-    margin-bottom: 40px !important;
   }
 
+  /* card size controlled */
+  .specialty-card {
+    width: 100% !important;
+    max-width: 320px !important;   /* KEY FIX */
+    padding: 28px 20px !important; /* reduce overflow */
+    margin: 0 auto !important;
+  }
+
+  /* text smaller */
+  .specialty-text {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 24px !important;
+  }
+
+  /* image reduced */
   .specialty-image {
-    width: 150px !important;
-    height: 150px !important;
-    margin: 0 auto;
+    width: 130px !important;
+    height: 130px !important;
+    margin: 0 auto !important;
   }
 
   .specialty-image img {

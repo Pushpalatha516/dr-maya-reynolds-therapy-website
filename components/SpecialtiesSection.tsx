@@ -1,8 +1,9 @@
 export default function SpecialtiesSection() {
   return (
     <section
+      className="specialties-section"
       style={{
-        backgroundColor: "#faf6f1",
+        backgroundColor: "#faf6f1", // warm linen section bg
         width: "100%",
       }}
     >
@@ -91,7 +92,6 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  display: "block",
                 }}
               />
             </div>
@@ -151,7 +151,6 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  display: "block",
                 }}
               />
             </div>
@@ -211,7 +210,6 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  display: "block",
                 }}
               />
             </div>
