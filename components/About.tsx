@@ -124,7 +124,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* ✅ MOBILE ONLY — DESKTOP UNTOUCHED */}
       <style jsx>{`
         @media (max-width: 768px) {
           section > div {

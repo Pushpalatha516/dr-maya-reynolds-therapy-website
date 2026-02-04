@@ -1,12 +1,14 @@
 export default function Hero() {
   return (
     <section
+      className="hero-section"
       style={{
         backgroundColor: "#f4f8f6", // ✅ distinct hero background
         width: "100%",
       }}
     >
       <div
+        className="hero-grid"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -19,6 +21,7 @@ export default function Hero() {
       >
         {/* LEFT IMAGE */}
         <div
+          className="hero-image"
           style={{
             width: "80%",
             height: "650px",
@@ -42,6 +45,7 @@ export default function Hero() {
         {/* RIGHT CONTENT */}
         <div>
           <h1
+            className="hero-heading"
             style={{
               fontFamily: "Playfair Display, serif",
               fontSize: "58px",
@@ -56,6 +60,7 @@ export default function Hero() {
           </h1>
 
           <p
+            className="hero-text"
             style={{
               fontFamily: "Inter, sans-serif",
               fontSize: "18px",
