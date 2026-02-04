@@ -8,6 +8,7 @@ import FadeInSection from "@/components/FadeInSection";
 export default function HomePage() {
   return (
     <main>
+      
       <FadeInSection delay={0}>
   <Hero />
 </FadeInSection>
