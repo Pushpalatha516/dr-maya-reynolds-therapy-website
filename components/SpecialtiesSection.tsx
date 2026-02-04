@@ -2,7 +2,7 @@ export default function SpecialtiesSection() {
   return (
     <section
       style={{
-        backgroundColor: "#faf6f1", // warm linen section bg
+        backgroundColor: "#faf6f1",
         width: "100%",
       }}
     >
@@ -16,6 +16,7 @@ export default function SpecialtiesSection() {
       >
         {/* SECTION TITLE */}
         <h2
+          className="specialties-heading"
           style={{
             fontFamily: "Playfair Display, serif",
             fontSize: "40px",
@@ -29,6 +30,7 @@ export default function SpecialtiesSection() {
 
         {/* SPECIALTY BOXES */}
         <div
+          className="specialties-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
@@ -37,8 +39,9 @@ export default function SpecialtiesSection() {
         >
           {/* BOX 1 */}
           <div
+            className="specialty-card"
             style={{
-              backgroundColor: "#efe6db", // deeper sage
+              backgroundColor: "#efe6db",
               padding: "50px 36px",
               borderRadius: "28px",
               boxShadow: "0 18px 40px rgba(0,0,0,0.06)",
@@ -57,6 +60,7 @@ export default function SpecialtiesSection() {
             </h3>
 
             <p
+              className="specialty-text"
               style={{
                 fontFamily: "Inter, sans-serif",
                 fontSize: "16px",
@@ -71,6 +75,7 @@ export default function SpecialtiesSection() {
             </p>
 
             <div
+              className="specialty-image"
               style={{
                 width: "190px",
                 height: "190px",
@@ -86,6 +91,7 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
+                  display: "block",
                 }}
               />
             </div>
@@ -93,8 +99,9 @@ export default function SpecialtiesSection() {
 
           {/* BOX 2 */}
           <div
+            className="specialty-card"
             style={{
-              backgroundColor: "#efe6db", // grounded lilac
+              backgroundColor: "#efe6db",
               padding: "50px 36px",
               borderRadius: "28px",
               boxShadow: "0 18px 40px rgba(0,0,0,0.06)",
@@ -113,6 +120,7 @@ export default function SpecialtiesSection() {
             </h3>
 
             <p
+              className="specialty-text"
               style={{
                 fontFamily: "Inter, sans-serif",
                 fontSize: "16px",
@@ -127,6 +135,7 @@ export default function SpecialtiesSection() {
             </p>
 
             <div
+              className="specialty-image"
               style={{
                 width: "190px",
                 height: "190px",
@@ -142,6 +151,7 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
+                  display: "block",
                 }}
               />
             </div>
@@ -149,8 +159,9 @@ export default function SpecialtiesSection() {
 
           {/* BOX 3 */}
           <div
+            className="specialty-card"
             style={{
-              backgroundColor: "#efe6db", // warm sand
+              backgroundColor: "#efe6db",
               padding: "50px 36px",
               borderRadius: "28px",
               boxShadow: "0 18px 40px rgba(0,0,0,0.06)",
@@ -169,6 +180,7 @@ export default function SpecialtiesSection() {
             </h3>
 
             <p
+              className="specialty-text"
               style={{
                 fontFamily: "Inter, sans-serif",
                 fontSize: "16px",
@@ -183,6 +195,7 @@ export default function SpecialtiesSection() {
             </p>
 
             <div
+              className="specialty-image"
               style={{
                 width: "190px",
                 height: "190px",
@@ -198,6 +211,7 @@ export default function SpecialtiesSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
+                  display: "block",
                 }}
               />
             </div>

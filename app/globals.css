@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ================= ROOT VARIABLES ================= */
 :root {
-  --bg-color: #faf7f5;          
-  --primary-color: #7b6fae;     
-  --heading-color: #2f2a28;    
-  --text-color: #5f5a57;       
+  --bg-color: #faf7f5;
+  --primary-color: #7b6fae;
+  --heading-color: #2f2a28;
+  --text-color: #5f5a57;
 }
 
+/* ================= FONTS ================= */
 .font-heading {
   font-family: "Playfair Display", serif;
 }
@@ -16,9 +18,17 @@
 .font-body {
   font-family: "Inter", sans-serif;
 }
+
+/* ================= GLOBAL ================= */
+html {
+  scroll-behavior: smooth;
+}
+
 div {
   display: block;
 }
+
+/* ================= BUTTON ================= */
 .approach-btn {
   display: inline-block;
   padding: 14px 36px;
@@ -36,11 +46,14 @@ div {
   background-color: #000;
   color: #fff;
 }
-html {
-  scroll-behavior: smooth;
-}
+
+/* ===================================================
+   ================= MOBILE FIXES ====================
+   =================================================== */
 
 @media (max-width: 768px) {
+
+  /* ===== ABOUT SECTION ===== */
   .about-grid {
     grid-template-columns: 1fr !important;
     padding: 60px 20px !important;
@@ -62,17 +75,58 @@ html {
     width: 280px !important;
     height: 280px !important;
     margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
   }
-}
-@media (max-width: 768px) {
+
+  /* ===== HERO SECTION ===== */
   .hero-image {
+    width: 100% !important;
     height: auto !important;
+    margin: 0 auto;
   }
 
   .hero-image img {
+    width: 100% !important;
     height: auto !important;
     object-fit: contain !important;
+    display: block;
+  }
+
+  /* ===== SPECIALTIES SECTION ===== */
+  .specialties-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+
+  .specialties-heading {
+    font-size: 32px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .specialty-card {
+    padding: 36px 24px !important;
+  }
+
+  .specialty-text {
+    font-size: 15px !important;
+    line-height: 1.6;
+  }
+
+
+  .specialty-image {
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .specialty-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block;
   }
 }
-
-
